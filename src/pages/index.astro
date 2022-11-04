@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="home page">
+  <div class="content">
+    <h1 class="code title">hey there.</h1>
+    <hr style="width:1000px;" />
+    <p style="font-size:20px">my name is decqyd, or dan</p>
+    <p style="font-size:20px">
+      this site is still under construction, so please give me a bit to finish
+      it. thanks.
+    </p>
+  </div>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 60ch;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .content {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+  }
+</style>
