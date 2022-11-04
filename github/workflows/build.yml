@@ -1,0 +1,8 @@
+name: site build
+run-name: im just building my site
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm run build
